@@ -1,0 +1,42 @@
+body {
+	background-color:  #00aced;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 45px;
+	font-weight: lighter;
+}
+
+.quote, .author {
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+}
+
+.trigger {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+	background-color: inherit;
+	margin-top: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.trigger:hover {
+	transition: 1s;
+	background-color: #fff;
+	color: #00aced;
+}
+
