@@ -8,30 +8,51 @@ body {
 }
 
 h1 {
-	text-align: center;
 	color: #fff;
 	font-size: 45px;
 	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .quote, .author {
-	text-align: center;
 	color: #fff;
 	font-size: 25px;
+	letter-spacing: 3px;
+	text-align: center;
 }
 
 .trigger {
+	background-color: inherit;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
 	display: block;
 	margin: 0 auto;
 	width: 400px;
 	height: 40px;
-	background-color: inherit;
 	margin-top: 50px;
-	cursor: pointer;
 	font-size: 20px;
+}
+
+.trigger2 {
+	background-color: inherit;
 	border: 2px solid #fff;
 	border-radius: 5px;
 	color: #fff;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .trigger:hover {
@@ -40,3 +61,8 @@ h1 {
 	color: #00aced;
 }
 
+.trigger2:hover {
+	transition: 1s;
+	background-color: #fff;
+	color: #00aced;
+}
